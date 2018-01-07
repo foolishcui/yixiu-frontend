@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>验证手机号</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body style="background:#fff;">
+    <div class="page-container">
+        <form action="">
+            <div class="container book-container">
+                <div class="book-group relative">
+                    <input class="book-input book-input-number fz16" type="number" placeholder="请输入您的手机号">
+                    <a class="book-send-code fz16 red" href="javascript:;">发送验证码</a>
+                </div>
+                <div class="book-group">
+                    <input class="book-input book-input-code block" type="text" placeholder="请输入验证码">
+                </div>
+                <div class="book-submit">
+                    <button type="submit" class="ui-btn-block white red-bg-linear noappearance">确认预约此课程</button>
+                    <!-- 不可用 -->
+                    <!-- <button disabled type="submit" class="ui-btn-disabled ui-btn-block white red-bg-linear noappearance">验证码输入有误</button> -->
+                </div>
+            </div>
+        </form>
+
+        <div class="tac">
+            <img class="book-phone" src="images/phone.png" alt="">
+        </div>
+    </div>
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
